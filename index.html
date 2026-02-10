@@ -434,11 +434,20 @@
     <div class="container">
         <header>
             <div class="gallery">
-                <div class="photo-title" style="text-align: center;">
-                    
-                    <img src="Tekshine.png"   width="1050" height="250">
-                </div>
-            </div>
+    <div class="photo-title" style="text-align: center;">
+        <img src="Tekshine.png" class="responsive-image">
+    </div>
+</div>
+
+<style>
+.responsive-image {
+    width: 80%; /* Ocupa 80% da largura disponível */
+    max-width: 250px; /* Não ultrapassa 250px */
+    height: auto; /* Mantém proporção */
+    display: block;
+    margin: 0 auto; /* Centraliza */
+}
+</style>
             <h1>TekShine</h1>
             <p class="subtitle">Encontre o serviço perfeito para suas necessidades. Clique em qualquer serviço para iniciar uma conversa sobre seu projeto.</p>
             
